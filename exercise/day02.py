@@ -6,5 +6,7 @@ cv.imshow("input",src)
 gray = cv.cvtColor(src,cv.COLOR_BGR2GRAY)
 cv.imshow("gray",gray)
 
+gray = cv.cvtColor(src,cv.COLOR_BGR2GRAY)
+cv.imshow("gray",gray)
 cv.waitKey(0)
 cv.destroyAllWindows()
